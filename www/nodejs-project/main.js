@@ -8,9 +8,9 @@ setInterval(() => {
 
 // Create rarely large strings
 setInterval(() => {
-    const str = spawnString(5 * 1024 * 1024);
+    const str = spawnString(1 * 1024 * 1024);
     strings.push(str);
-}, 1000);
+}, 500);
 
 // Flush strings arr
 setInterval(() => {
