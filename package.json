@@ -13,6 +13,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
+    "cordova": "^9.0.0",
     "cordova-ios": "^5.1.1",
     "nodejs-mobile-cordova": "^0.3.5"
   },
